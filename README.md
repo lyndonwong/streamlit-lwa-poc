@@ -1,19 +1,16 @@
-# 🎈 Blank app template
+# STREAMLIT LWA POC
 
-A simple Streamlit app template for you to modify!
+###GOAL 
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Confirm whether a streamlit app can provide a map view with the following features:
 
-### How to run it on your own machine
+1. Filter plotted project locations by traits such as "commercial project", "residential project", "mixed-use project", "estimated value < $10M", "estimated value > $10M"
 
-1. Install the requirements
+2. Show details of a plotted project on rollover (tool tip ux)
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+3. Enable click through from plotted project to more details or related commission meeting minutes / transcripts.
 
-2. Run the app
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://lwa-poc.streamlit.app/)
 
-   ```
-   $ streamlit run streamlit_app.py
+
    ```
