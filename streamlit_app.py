@@ -9,6 +9,7 @@ st.set_page_config(layout="wide")
 
 st.title("Interactive Map of Menlo Park, CA")
 st.write("Hover over the pins to see detailed information and a link for more information about each location.")
+st.write("Get August to give me critique for this map!")
 
 # Sample data for locations within Menlo Park, including a URL for more info
 data = {
